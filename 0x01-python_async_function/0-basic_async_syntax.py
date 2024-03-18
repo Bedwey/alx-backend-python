@@ -1,18 +1,14 @@
 #!/usr/bin/env python3
+'''Task 0: The basics of async
+Write an asynchronous coroutine that takes in an integer
+argument (`max_delay`, with a default value of 10) named
+`wait_random` that waits for a random delay between 0 and
+`max_delay` (included and float value) seconds and
+eventually returns it.
 
-"""
-This module contains a coroutine that waits for a random delay.
+Use the `random` module.
 
-Modules:
-    asyncio: This module is used for writing single-threaded concurrent code 
-    using coroutines, multiplexing I/O access over sockets and other resources, 
-    running network clients and servers, and other related primitives.
-
-    random: This module implements pseudo-random number generators for various 
-    distributions including integer and float. In this script, it is used to 
-    generate a random float for the delay time.
-"""
-
+'''
 
 import asyncio
 import random
